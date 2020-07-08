@@ -1,0 +1,32 @@
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+Excel/
+ENV/
+scraper/
+env.bak/
+venv.bak/
+pip-selfcheck.json
+*.json
+
+### Video ###
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mov
+*.mp4
+*.mpg
+*.rm
+*.swf
+*.vob
+*.wmv
+
+# End of https://www.gitignore.io/api/venv,video,python

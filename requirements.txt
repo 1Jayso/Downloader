@@ -1,0 +1,9 @@
+beautifulsoup4==4.8.2
+certifi==2019.11.28
+chardet==3.0.4
+hurry.filesize==0.9
+idna==2.9
+python3-wget==0.0.2b1
+requests==2.23.0
+soupsieve==2.0
+urllib3==1.25.8
