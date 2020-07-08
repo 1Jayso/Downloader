@@ -1,9 +1,15 @@
+asgiref==3.2.10
 beautifulsoup4==4.8.2
 certifi==2019.11.28
 chardet==3.0.4
+Django==3.0.7
 hurry.filesize==0.9
 idna==2.9
+lxml==4.5.1
+psycopg2-binary==2.8.5
 python3-wget==0.0.2b1
+pytz==2020.1
 requests==2.23.0
 soupsieve==2.0
+sqlparse==0.3.1
 urllib3==1.25.8
