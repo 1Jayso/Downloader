@@ -25,7 +25,7 @@ create_dir(path='Java')
 
 
 # specify the URL of the archive here 
-archive_url = " https://git.ir/packtpub-java-se-8-programmer-1/"
+archive_url = " "
 FILETYPE = '.mp4'
 
 def get_video_links(): 
