@@ -6,7 +6,7 @@ Downloader --> A simple scraper to scrape video links from a site and download t
 ***I have this site where I normally download video tutorials. To download I have to copy the link into a 
 downloader to download. The process was a little boring for me so I decided to try and automate the process 
 with BeautifulSoup. It's not better than your downloader but it serves it purpose beautifully. Feel free 
-to make it your own. That having been said, if you want to contribute to making it better then you are 
+to make it your own. That said, if you want to contribute to making it better then you are 
 warmly welcome!***
 
 ### Ruuning the application
