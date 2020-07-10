@@ -4,10 +4,16 @@ import wget
 import os
 
 
+# specify the URL of the archive here 
+archive_url = "https://git.ir/linkedin-java-deep-dive/"
+FILETYPE = '.mp4'
+
+dir_name = archive_url.split('/')[-2] 
+dir_name = dir_name.upper()
+
 
 def create_dir(path):
-	# path = "s"
-
+	
 	try:
 		isFile = os.path.exists(path)
 		if isFile:
@@ -17,16 +23,13 @@ def create_dir(path):
 		else:
 			os.makedirs(path)
 			print ("Successfully created the directory %s" % path)
-			os.chdir('sass')
+			os.chdir(path)
 
 	except OSError:
 			print ("Creation of the directory %s failed" % path)
-create_dir(path='Java')
+create_dir(path=dir_name)
 
 
-# specify the URL of the archive here 
-archive_url = " "
-FILETYPE = '.mp4'
 
 def get_video_links(): 
 
