@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import wget
 import os
 
+archive_url = input("Paste the url here: ")
 
-# specify the URL of the archive here 
-archive_url = "https://git.ir/linkedin-java-deep-dive/"
+
 FILETYPE = '.mp4'
 
 dir_name = archive_url.split('/')[-2] 
