@@ -22,12 +22,12 @@ pip-selfcheck.json
 *.avi
 *.flv
 *.mov
-*.mp4
+*.mp4*
 *.mpg
 *.rm
 *.swf
 *.vob
 *.wmv
-*.mkv
+*.mkv*
 
 # End of https://www.gitignore.io/api/venv,video,python
