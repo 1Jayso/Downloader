@@ -5,12 +5,14 @@ import os
 
 archive_url = input("Paste the url here: ")
 
-
-FILETYPE = '.mp4'
+# specify the URL of the archive here  
+# archive_url = "https://git.ir/linkedin-java-deep-dive/"
+FILETYPE = input("Enter file type e.g mp4: ")
+FILETYPE = '.'+FILETYPE
 
 dir_name = archive_url.split('/')[-2] 
 dir_name = dir_name.upper()
-
+# https://git.ir/PACKTPUB-FULL-STACK-WEB-DEVELOPMENT-WITH-FLASK/
 
 def create_dir(path):
 	
@@ -96,3 +98,4 @@ if __name__ == "__main__":
 	# download all videos 
 	download_video_series(video_links) 
 	
+# https://www.lightdl.xyz/2017/04/the-big-bang-theory.html

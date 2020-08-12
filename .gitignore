@@ -28,5 +28,6 @@ pip-selfcheck.json
 *.swf
 *.vob
 *.wmv
+*.mkv
 
 # End of https://www.gitignore.io/api/venv,video,python
