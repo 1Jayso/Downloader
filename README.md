@@ -23,5 +23,8 @@ Install the the libraries used for this project by copying and pasting the below
 ```
 pip install -r requirements.txt # This will install the libraries used for this project
 ```
+Run the script by typing: ```python downloader.py```
+
+Fanlly copy any of the links in the downloder.py file and paste it then enter the filetype of the video
 
 
