@@ -9,7 +9,7 @@ with BeautifulSoup. It's not better than your downloader but it serves it purpos
 to make it your own. That said, if you want to contribute to making it better then you are 
 warmly welcome!***
 
-### Ruuning the application
+### Runing the application
 To test it:
 
 Create a virtual environment using the following scripts:
